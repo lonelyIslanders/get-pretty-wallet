@@ -1,0 +1,15 @@
+{
+  "name": "getprettywallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js -l run.log --name  getprettywallet --log-date-format=\"YYYY-MM-DD HH:mm:ss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.3.0"
+  }
+}
